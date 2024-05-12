@@ -11,7 +11,7 @@ import java.util.List;
 public class ProductoServicio implements  IProductoServicio{
 
     @Autowired//inyectar una propiedad
-    private ProductoRepositorio productoRepositorio;
+     private ProductoRepositorio productoRepositorio;
 
     @Override
     public List<Producto> listarProductos() {
